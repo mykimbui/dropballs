@@ -1,0 +1,14 @@
+body {
+  margin : 0;
+}
+
+section.split {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
